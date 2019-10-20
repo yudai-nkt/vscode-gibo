@@ -14,6 +14,10 @@ gibo of version 2.2 or later needs to be installed.
 This extension has not been published on Visual Studio Marketplace yet.
 You need to manually clone the repository, and package the VSIX format to install this extension.
 
+## Usage
+Invoke 'Create or append to .gitignore' from the command palette, and then select boilerplate(s) you want to use.
+If you have multiple folders in your workspace, you will be asked to select in which folder you want to create a .gitignore before boilerplate selection. 
+
 ## Contribution
 Contributions are highly welcome. Feel free to report an [issue][] or submit a [pull request][].
  
