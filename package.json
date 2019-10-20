@@ -1,65 +1,65 @@
 {
-	"name": "vscode-gibo",
-	"displayName": "vscode-gibo",
-	"description": "gibo interface for Visual Studio Code",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.39.0"
-	},
-	"homepage": "https://github.com/yudai-nkt/vscode-gibo/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/yudai-nkt/vscode-gibo.git"
-	},
-	"bugs": "https://github.com/yudai-nkt/vscode-gibo/issues",
-	"categories": [
-		"Other"
-	],
-	"keywords": [
-		"gibo",
-		"git",
-		"gitignore",
-		"github"
-	],
-	"license": "SEE LICENSE IN <filename>",
-	"activationEvents": [
-		"onCommand:vscode-gibo.append-to-gitignore"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "vscode-gibo.append-to-gitignore",
-				"title": "Create or append to .gitignore",
-				"category": "gibo"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile",
+  "name": "vscode-gibo",
+  "displayName": "vscode-gibo",
+  "description": "gibo interface for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "homepage": "https://github.com/yudai-nkt/vscode-gibo/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yudai-nkt/vscode-gibo.git"
+  },
+  "bugs": "https://github.com/yudai-nkt/vscode-gibo/issues",
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "gibo",
+    "git",
+    "gitignore",
+    "github"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "activationEvents": [
+    "onCommand:vscode-gibo.append-to-gitignore"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-gibo.append-to-gitignore",
+        "title": "Create or append to .gitignore",
+        "category": "gibo"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
     "test": "node ./out/test/runTest.js",
     "lint": "eslint --ext .ts ./src/extension.ts",
     "fix": "eslint --ext .ts --fix ./src/extension.ts"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.1",
-		"@types/mocha": "^5.2.6",
-		"@types/node": "^10.12.21",
-		"@types/vscode": "^1.39.0",
-		"@typescript-eslint/eslint-plugin": "^2.4.0",
-		"eslint": "^6.5.1",
-		"eslint-config-standard-with-typescript": "^10.0.0",
-		"eslint-plugin-import": "^2.18.2",
-		"eslint-plugin-node": "^9.2.0",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-standard": "^4.0.1",
-		"glob": "^7.1.4",
-		"mocha": "^6.1.4",
-		"tslint": "^5.12.1",
-		"typescript": "^3.3.1",
-		"vscode-test": "^1.2.0"
-	}
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.21",
+    "@types/vscode": "^1.39.0",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-standard-with-typescript": "^10.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "glob": "^7.1.4",
+    "mocha": "^6.1.4",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1",
+    "vscode-test": "^1.2.0"
+  }
 }
