@@ -1,7 +1,7 @@
 # `vscode-gibo` extension
 gibo interface for Visual Studio Code.
 
-<!-- TODO: put demo here. -->
+![demo][]
 
 ## Overview
 [gibo][] is a command line tool that helps you create .gitignore files by populating [GitHub's gitignore templates][github/gitignore].
@@ -25,6 +25,7 @@ Contributions are highly welcome. Feel free to report an [issue][] or submit a [
 This package is distributed under the MIT License.
 See [LICENSE.md](./LICENSE.md) for details.
 
+[demo]: ./demo.gif
 [gibo]: https://github.com/simonwhitaker/gibo
 [github/gitignore]: https://github.com/github/gitignore
 [issue]: https://github.com/yudai-nkt/vscode-gibo/issues
